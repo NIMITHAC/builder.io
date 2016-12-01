@@ -1,0 +1,74 @@
+
+#square{
+	height:150px;
+	width: 150px;
+	background-color: red;
+}
+#circle{
+	height:150px;
+	width: 150px;
+	background-color: red;
+	border-radius:50%;
+	position:relative;
+}
+#triangle{
+	height:0;
+	width:0;
+	border-bottom: 100px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+}
+#triangle_down{
+	height:0;
+	width:0;
+	border-top: 100px solid red;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+}
+#triangle_right{
+	height:0;
+	width:0;
+	border-left: 100px solid blue;
+	border-top:50px solid transparent;
+	border-bottom:50px solid transparent;
+}
+#triangle_left{
+	height: 0;
+	width: 0;
+	border-right: 100px solid green;
+	border-top:50px solid transparent;
+	border-bottom: 50px solid transparent;
+}
+#rectangle{
+	height:100px;
+	width: 250px;
+	background-color:red;
+	position:relative;
+}
+#trapezoid{
+	width:150px;
+	height:0;
+	border-left:50px solid transparent;
+	border-right:50px solid transparent;
+	border-bottom:150px solid green;
+}
+#rectangle::before{
+	position:absolute;
+	height:0;
+	width:0;
+	border-top:20px solid red;
+	border-left:20px solid transparent;
+	position:absolute;
+	content:"";
+	margin-top: 100px;
+	margin-left: 20px;
+}
+#circle::before{
+	height:0;
+	width:0;
+	border-bottom:50px solid blue;
+	border-right:25px solid transparent;
+	border-left:25px solid transparent;
+	content:"";
+	margin-left: 45px;
+}
