@@ -1,0 +1,21 @@
+footer{
+	border-bottom: 100px solid lighten($bg-color,15%);
+	padding:3em 0;
+	a{
+		color: $bg-color;	
+		display:block;
+		font-weight:bold;
+		padding: 5px;
+		&,&:hover{
+			text-decoration: none;
+			color: $bg-color;
+		}
+	}
+	.pencil-container{
+		text-align: center;
+		i{
+			font-size: 3em;
+			transform:rotate(-45deg);
+		}
+	}
+}

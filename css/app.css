@@ -104,4 +104,112 @@ body {
     color: #FFF;
     margin-left: 1em; }
 
+#video-demo {
+  position: relative; }
+  #video-demo img {
+    width: 100%; }
+  #video-demo i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 8vw;
+    color: #FFF;
+    transform: translate(-50%, -50%); }
+
+#customization {
+  text-align: center;
+  padding: 5em 0;
+  background-color: #F7F7F5; }
+  #customization i {
+    font-size: 3em;
+    color: #A18BCC; }
+  #customization a {
+    color: #A18BCC;
+    font-weight: bold; }
+
+#pricing {
+  text-align: center;
+  padding: 4em 0; }
+  #pricing h2 {
+    text-transform: uppercase; }
+  #pricing h2, #pricing p.caption {
+    color: #A18BCC; }
+  #pricing p.caption {
+    font-weight: bold;
+    margin-bottom: 2em; }
+  #pricing .price-option {
+    border: 1px solid #C0C4C7;
+    border-radius: 10px;
+    height: 44em;
+    position: relative; }
+  #pricing h3 {
+    background-color: #A18BCC;
+    color: #FFF;
+    margin: 0;
+    padding: 0.6em;
+    text-transform: uppercase;
+    border-radius: 10px 10px 0 0; }
+  #pricing p.description {
+    font-weight: bold;
+    margin: 2em 3em; }
+  #pricing p.price {
+    color: #4BD9DD;
+    font-size: 2.7em; }
+    #pricing p.price span {
+      font-size: 0.5em;
+      color: #C0C4C7;
+      position: relative;
+      font-weight: bold;
+      top: -0.3em; }
+  #pricing .reason {
+    border-top: 2px solid #e9eaeb;
+    padding: 1em;
+    margin: 0 2em;
+    font-weight: bold; }
+  #pricing a.signup {
+    margin: 0 2em;
+    position: absolute;
+    bottom: 1.7em;
+    left: 2em;
+    right: 2em; }
+    #pricing a.signup.btn-outline {
+      color: #A18BCC;
+      border-color: #A18BCC; }
+  #pricing .user-count {
+    font-size: 1.2em;
+    margin-top: 1em;
+    color: #A18BCC; }
+    #pricing .user-count span {
+      font-weight: bold;
+      font-size: 1.3em;
+      position: relative;
+      top: 0.1em; }
+
+#mountains img {
+  width: 100%; }
+#mountains .take-my-money {
+  background-color: #A18BCC;
+  padding: 3em 0;
+  text-align: center; }
+#mountains a {
+  background-color: #4BD9DD;
+  color: #FFF; }
+
+footer {
+  border-bottom: 100px solid #ccc0e3;
+  padding: 3em 0; }
+  footer a {
+    color: #A18BCC;
+    display: block;
+    font-weight: bold;
+    padding: 5px; }
+    footer a, footer a:hover {
+      text-decoration: none;
+      color: #A18BCC; }
+  footer .pencil-container {
+    text-align: center; }
+    footer .pencil-container i {
+      font-size: 3em;
+      transform: rotate(-45deg); }
+
 /*# sourceMappingURL=app.css.map */
